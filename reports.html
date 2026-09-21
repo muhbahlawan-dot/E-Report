@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Report IDN</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+    <!-- cdn font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- cdn animasi css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- cdn AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary-subtle py-4 animate__animated animate__fadeInDown">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/logo.jpg" alt="Logo" width="60" class="d-inline-block align-text-top rounded">
+                <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
+            </a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#recent">Recent</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- reports -->
+    <section id="report">
+        <div class="container">
+            <!-- judul -->
+            <div class="text-center">
+                <h1 class="fw-bold text-primary-emphasis">Semua laporan</h1>
+                <p class=" text-muted lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptates ex,
+                    nostrum quisquam quaerat
+                    atque natus porro nam maxime reiciendis? Consequatur accusantium excepturi similique recusandae.</p>
+            </div>
+            <!-- filter -->
+            <div class="row mt-5 gap-3 gap-md-0">
+                <div class="col-md-4">
+                    <input type="text" class="form-control shadow-sm" placeholder="Cari Laporan">
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select">
+                        <option value="">Pilih kategori</option>
+                        <option value="">Akademik</option>
+                        <option value="">Fasilitas</option>
+                        <option value="">Anonymus</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select">
+                        <option value="">Urutkan</option>
+                        <option value="">Terbaru</option>
+                        <option value="">Terlama</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100">
+                        <i class="fa-solid fa-filter"></i>
+                        Filter
+                    </button>
+                </div>
+            </div>
+            <!-- All report -->
+            <div class="row mb-4 mt-5">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Anonymus</p>
+                        <img style="height: 250px;" src="assets/gambarmaling.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fattah maling dompet saya</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Anonymus</a> Yesterday</p>
+                            <p class="card-text">Saya ingin melaporkan kehilangan dompet yang terakhir saya ingat berada
+                                di area kelas. Dompet tersebut berisi kartu pelajar dan beberapa kartu penting lainnya.
+                                Saya sudah mencoba mencari di sekitar kelas dan area yang sebelumnya saya kunjungi,
+                                tetapi belum menemukannya.</p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <p class="position-absolute bg-dark text-white px-3 py-2">Akademik</p>
+                    <div class="card">
+                        <p style="background-color: rgba(0, 0, 0, 0.3);" class="position-absolute text-white px-3 py-2">
+                            Akademik</p>
+                        <img style="height: 250px;" src="assets/kelas-kotor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laporan kelas kotor</h5>
+                            <p class="mb-4">By: <a class="text-decoration-none" href="">Fattah</a> Yesterday</p>
+                            <p class="card-text">Kondisi kelas setelah kegiatan belajar membutuhkan perhatian lebih.
+                                Beberapa area terlihat kotor dan perlu dibersihkan agar kegiatan belajar tetap nyaman.
+                            </p>
+                            <a href="#" class="btn btn-primary">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pagination -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-primary py-5">
+        <div class="container">
+            <div class="row justify-content-between row-gap-4 row-gap-md-0">
+                <div class="col-md-4 text-white">
+                    <div class="d-flex align-items-center gap-3 mb-2">
+                        <img class="rounded" src="assets/logo.jpg" width="30" alt="">
+                        <h3 class="mb-0 fw-bold">E-Report</h3>
+
+                    </div>
+                    <p class="opacity-75 lh-lg mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                        harum, facere at facilis molestias consequatur!</p>
+                </div>
+                <div class="col-md-2 text-white d-flex flex-column gap-2">
+                    <h4 class="fw-bold">Menu</h4>
+                    <a class="text-white text-decoration-none footer-link" href="index.html#hero">Home</a>
+                    <a class="text-white text-decoration-none footer-link" href="index.html#about">About</a>
+                    <a class="text-white text-decoration-none footer-link" href="index.html#service">Services</a>
+                    <a class="text-white text-decoration-none footer-link" href="index.html#recent">Recent</a>
+                    <a class="text-white text-decoration-none footer-link" href="index.html#faq">FAQ</a>
+                </div>
+                <div class="col-md-4 d-flex flex-column gap-2">
+                    <h4 class="fw-bold text-white">Contact Us</h4>
+                    <a target="_blank"
+                        class="text-white text-decoration-none footer-link d-flex align-items-center gap-3"
+                        href="mailto:muh.bahlawan@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        muh.bahlawan@gmail.com
+                    </a>
+                    <a target="_blank"
+                        class="text-white text-decoration-none footer-link d-flex align-items-center gap-3"
+                        href="https://wa.me/6281316414313">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        +62 813 1641 4313
+                    </a>
+                    <a target="_blank"
+                        class="text-white text-decoration-none footer-link d-flex align-items-center gap-3"
+                        href="https://maps.app.goo.gl/7Z4unYRegbivDp496">
+                        <i class="fa-solid fa-magnifying-glass-location"></i>
+                        Jl. Raya Jonggol-Dayeuh, Sukanegara, Kec. Jonggol, Kabupaten Bogor, Jawa Barat 16830
+                    </a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="text-white text-center">&copy; copyright by <span class="fw-bold">RPL C Class</span> 2026, All
+                    right reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <!-- cdn AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
